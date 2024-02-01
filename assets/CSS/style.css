@@ -1,0 +1,189 @@
+@import url('reset.css');
+
+
+
+header{
+    height: calc(100vh - 175px);
+    width: auto;
+    background-image: url('../Images/Header\ Background.png');
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ header h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.5rem;
+    width: 400px;
+    color: white;
+    
+}
+
+
+header p{
+    width: 757px;
+    font-size: 16px;
+    color: white;
+    margin: 50px 0;
+}
+
+.lugar{
+    margin-left: 150px;
+}
+
+
+
+header .button{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.baixar{
+    padding: 0 40px;
+    border-radius: 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.abra{
+    padding: 20px 40px;
+    border-radius: 28px;
+    font-size: 1rem;
+    color: white;
+    background-color: #23272A;
+    cursor: pointer;
+    border: none;
+}
+
+
+main{
+    display: flex;
+    margin-top: 60px;
+    
+    flex-direction: column;
+    
+}
+
+
+main .container-01{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+
+main .container-01 h2{
+    width: 329px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+main .container-01-style {
+    background-color: #F6F6F6;
+}
+
+main .container-01 p{
+    width: 348px;
+}
+
+main .container-02{
+    margin: auto;
+    text-align: center;
+    width: 802px;
+}
+
+main .container-02 h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+    padding-top: 20px;
+    
+}
+main .container-02 p{
+    margin-top: 20px;
+    
+}
+
+
+
+
+footer{
+    background-color: #23272A;
+    width: 100vw;
+    height: 134px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+@media screen and (max-width: 428px) {
+    header p,h1,.button{
+        padding: 0 20px;
+    }
+    header p{
+        width: 381px
+
+    }
+   
+    header h1{
+        font-size: 1.5rem;
+    }
+    .lugar{
+        margin-left: 0;
+    }
+    header .button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .baixar{
+        padding: 20px 50px;
+        width: 90vw;
+        border-radius: 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+    }
+    main .container-01{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    main .container-01 h2{
+        font-size: 1.5rem;
+        padding: 0 20px;
+    }
+    main .container-01 p{
+        width: 378px;
+        padding: 0 20px;
+    }
+    main .container-01 img{
+        width: 80%;
+    }
+
+    main .container-02 p{
+        width: 350px;
+        text-align: left;
+    }
+
+    main .container-02 h2{
+        width: 370px;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    main .container-02 img{
+        width: 45%;
+    }
+    main .container-02{
+        text-align: left;
+        padding: 0 20px;
+    }
+ }
+    
+    
